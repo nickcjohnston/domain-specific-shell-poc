@@ -114,7 +114,8 @@ help
 Modules
 -------
 FileAnalysis
-(ftech) use FileAnalysis
+
+<strong>(ftech) use FileAnalysis</strong>
 Using module FileAnalysis
 
 <strong>(FileAnalysis) show</strong>
