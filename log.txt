@@ -1,0 +1,70 @@
+[92mnick:[33m~/dss[0m
+$ tree | grep -v[K[K[K[K[K[K[Kegrep -v '__'[K|pyc'; # Project Structure
+.
+├── dss.py
+└── modules
+    ├── Goblin.py
+    ├── Human.py
+    ├── Illithid.py
+    ├── Module.py
+
+[92mnick:[33m~/dss[0m
+$ ./dss.py
+Welcome to the rpg shell. Type a command after the (rpg) prompt to..do..stuff
+[1;36m(rpg) [0;0mhelp
+Commands
+--------
+list
+home
+quit
+exit
+show
+set
+run
+use
+help
+[1;36m(rpg) [0;0mlist
+Modules
+-------
+Human
+Goblin
+Illithid
+[1;36m(rpg) [0;0muse Goblin
+Using module Goblin
+[1;36m(Goblin) [0;0mshow
+Goblin
+------
+Generates goblins
+----------
+Options
+-------
+output_format = csv
+quantity = 1
+[1;36m(Goblin) [0;0mset quantity 5
+[1;36m(Goblin) [0;0mrun
+Attack,Defense,Health
+7,7,3
+6,12,2
+7,6,2
+6,10,1
+10,7,3
+[1;36m(Goblin) [0;0mset output_format tsv
+[1;36m(Goblin) [0;0mrun
+Attack	Defense	Health
+8	8	2
+6	9	4
+7	6	2
+7	8	3
+7	5	1
+[1;36m(Goblin) [0;0mhome
+[1;36m(rpg) [0;0m2d5 6
+Total	Rolls
+3	2,1
+[1;36m(rpg) [0;0m4 1 2d5 4
+Totals	Rolls
+6	3,3
+2	1,1
+5	1,4
+4	1,3
+[1;36m(rpg) [0;0mquit
+
