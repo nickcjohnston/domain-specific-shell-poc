@@ -1,5 +1,10 @@
 # domain-specific-shell-poc
-PoC for a generalized domain specific shell (similar to the Metasploit infosec tool). This PoC is a shell to help a dungeon master while building or running a gaming campaign.
+Proof of concept ("PoC") for a generalized domain specific shell (similar to the Metasploit infosec tool). This PoC is a shell to help a dungeon master while building or running a gaming campaign.
+
+This is super buggy and is only meant as a quick PoC.
+
+## How to use
+Add a class to the modules package. Just copy the base Module.py to get the scaffolding you need. The main program will use the *options* dictionary to get the module's options. Check out the Goblin.py example module. I'm going to add a settings file in the parent folder but for now, to change the greeting and default prompt just edit the dss.py file, you'll see globals at the top.
 
 ## Sample Run
 <pre>
